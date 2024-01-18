@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue_light">#121212</color>
+    <color name="blue_dark">#86a8e7</color>
+    <color name="purple">#d16ba5</color>
+    <color name="v_devspace">#B50057</color>
+    <color name="a_devspace">#01004E</color>
+    <color name="black_dev">#121212</color>
+    <color name="ad_devspace">#F9536B</color>
+</resources>
