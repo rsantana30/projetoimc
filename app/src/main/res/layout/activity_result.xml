@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textview_imc"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal"
+        android:text="SEU IMC É:"
+        android:textColor="#F9536B"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textview_result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="381dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="248dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_result"
+        app:srcCompat="@drawable/imcfoto" />
+
+    <TextView
+        android:id="@+id/textview_classificacao"
+        android:layout_width="383dp"
+        android:layout_height="86dp"
+        android:gravity="center_horizontal"
+        android:text="Classificacao:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="380dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:gravity="center_horizontal"
+        android:text="SEU IMC É:"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_imc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
